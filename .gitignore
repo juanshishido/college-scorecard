@@ -1,3 +1,11 @@
+# miscellaneous
+data/.DS_Store
+data/._.DS_Store
+data/*.pdf
+data/*.zip
+data/*.xls
+data/*.yaml
+
 # Don't track data, CSV files
 *.csv
 
