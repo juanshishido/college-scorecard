@@ -20,8 +20,6 @@ for community colleges.
       institution?
 * There are some universities from Puerto Rico.
 
----
-
 ## Potential ideas
 
 1. What's the relationship between federal tax credits and grants and the
@@ -32,8 +30,6 @@ for community colleges.
 **Concerns**
 
 * Limited number of years of data
-
----
 
 2. What affects financial aid? Of course, there are state budgets, enrollments,
    federal funds, donations, grants, etc.
@@ -46,20 +42,12 @@ for community colleges.
   terms of propensity to accept. Are the numbers relfected the "awarded"
   amounts or are they the accepted amounts? Control for attendance costs
 
----
-
 3. Can we see differences in graduation rates across time?
-
----
 
 4. What's the relationship between "highly ranked" schools and financial aid
    awarded? And the relationship with cost?
 
----
-
 5. Which schools provide the "biggest bang for your buck?"
-
----
 
 6. Are we able to tell the proportion of students who received federal
    financial aid with this data?
@@ -69,62 +57,50 @@ for community colleges.
       (for some reason, the link itself doesn't work; it only works when
       referred by Google).
 
----
-
 7. What can we extract from the average monthly payment figure?
-
----
 
 8. There is information on "college's initial cost." These figures are broken
    down by family income bracket.
-
----
 
 9. How do majors affect outcomes?
 
     * Could we predict income based on majors?
 
----
-
 10. How do grants, loans, and defaults interact?
-
----
 
 11. In what parts of the country do students *accept* loans the most? Default
     the most?
 
----
-
 # Variables of Interest
 
-* UNITID
-* OPEID
-* INSTNM
-* CITY
-* sch_deg
-* main
-* PREDDEG
-* HIGHDEG
-* CONTROL
-* ADM_RATE
-* SAT...
-* PCIP&mdash;but aggregate categories
-* DISTANCEONLY
-* UGDS
-* UGDS_race&mdash;only available for 2008-2013
-* NPT4_PUB&mdash;only available for 2009-2013
-* NPT4_PRIV&mdash;only available for 2009-2013
-* NPT41_PUB - NPT45_PUB
-* NPT41_PRIV - NPT45_PRIV
-* NUM4_PUB
-* NUM4_PRIV
-* NUM41_PUB - NUM45_PUB
-* NUM41_PRIV - NUM41_PRIV
-* COSTT4_A&mdash;only available for 2009-2013
-* COSTT4_P&mdash;only available for 2009-2013
-* TUITIONFEE_IN&mdash;only available for 2000-2013
-* TUITIONFEE_OUT&mdash;only available for 2000-2013
-* TUITFTE&mdash;only available for 1998-2013
-* INEXPFTE&mdash;only available for 1998-2013
-* AVGFACSAL&mdash;missing for year 2000
-* PCTPELL&mdash;only available for 2008-2013
+* `UNITID`
+* `OPEID`
+* `INSTNM`
+* `CITY`
+* `sch_deg`
+* `main`
+* `PREDDEG`
+* `HIGHDEG`
+* `CONTROL`
+* `ADM_RATE`
+* `SAT`...
+* `PCIP`&mdash;but aggregate categories
+* `DISTANCEONLY`
+* `UGDS`
+* `UGDS_`race&mdash;only available for 2008-2013
+* `NPT4_PUB`&mdash;only available for 2009-2013
+* `NPT4_PRIV`&mdash;only available for 2009-2013
+* `NPT41_PUB` - `NPT45_PUB`
+* `NPT41_PRIV` - `NPT45_PRIV`
+* `NUM4_PUB`
+* `NUM4_PRIV`
+* `NUM41_PUB` - `NUM45_PUB`
+* `NUM41_PRIV` - `NUM41_PRIV`
+* `COSTT4_A`&mdash;only available for 2009-2013
+* `COSTT4_P`&mdash;only available for 2009-2013
+* `TUITIONFEE_IN`&mdash;only available for 2000-2013
+* `TUITIONFEE_OUT`&mdash;only available for 2000-2013
+* `TUITFTE`&mdash;only available for 1998-2013
+* `INEXPFTE`&mdash;only available for 1998-2013
+* `AVGFACSAL`&mdash;missing for year 2000
+* `PCTPELL`&mdash;only available for 2008-2013
