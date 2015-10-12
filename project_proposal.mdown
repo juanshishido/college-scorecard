@@ -1,0 +1,43 @@
+### Project Description
+=================
+
+The goal of the project is to build a ‘Ranking Report’ to help students and families compare different colleges and identify best return on investment. A college degree is the best investment students can make in their future, and the now with this data and insights it is easier and more rational to make one of the most important decisions students face in their lifetimes. This scorecard is designed to increase transparency and help students compare colleges based on costs and outputs as they make trade offs between different choices relevant to their educational goals. Students and parents can empirically evaluate colleges in terms of contribution to students' economic success.
+
+### Potential Relevant Variables
+=================
+
+- Student profile
+- Financial aid
+- Tution expenses
+- State Taxes
+- Median salary of graduating students
+- Degree types
+- Diversity of the class
+- Cost living within 10 miles of school campus
+
+
+### Potential Hypothesize
+=========================
+1. Is there a correlation between median salary to college ranking?
+2. Does engineering degrees/or certain types of schools are  offered more financial aid across schools? If Yes, what is the strength of association?
+3. Does the location of college in urbanized vs non-urbanized regions has association with earnings expected after the competing degree?
+4. If a student has lower GPA than average, will he get lower salary after graduating?
+
+### Potential Data Sources
+==========================
+
+The main source of data for our project will mostly come from College Scorecard. This data will ground our investigation and help us identify what variables are critical and which are not. This data will be in comparison to the US News Rankings of the different colleges. While this data is perhaps not quite as complex or exhaustive (the rankings specifically), it does play an important role in which colleges students choose to attend. In addition to the US News and College Scorecard data, we could potentially also use data from the College Board. The College Board is an organization that collects data via the Common Data Set which almost all universities use to publish information about their schools. Since the Common Data Set has been standardized across all schools, this will help us with data integration and allows us to focus on our main focus. We have also thought about using data from Peterson’s, as they also use the Common Data Set, though we are still undecided because of the potential cost.
+
+### Data Transformation
+=======================
+
+The College Scorecard includes data on over ten thousand unique schools (10,707 unique IDs; 14,971 unique institution names) in the United States over 18 years, from 1996 to 2013. The files —one for each year— are well structured. There are a total of 1,729 columns. It is important to note that the earnings data only applies to students who receive federal aid. This was not something discovered through our data profiling efforts but, rather, through reading the documentation.
+
+Along with IDs and institution names, the data include admission rates, student SAT and ACT scores by percentile, enrollment numbers, completion/graduation rates, average tuition costs, cumulative loan debt, average faculty salary, loan repayment rates, location information, such as cities, zip codes, and geographic coordinates, a categorical variable for the predominant degree type awarded, the number of branches or campuses (as well as an indicator for whether a given institution is the “main” campus), and information on the type of individuals typically served (e.g., women-only college).
+
+Our data profiling efforts revealed several insights about the data, specifically about its availability and completeness as well as its consistency. A majority of the data in the columns identifying the populations served, for example, are missing. Admission rate data is missing for 72.6% of the records — schools across time — which is unfortunate. The missing rates appear to be consistent across time, at least for this variable. For undergraduate enrollment, about 95% of data is missing. Data for the in-state tuition and fees is better. Only 53.5% of that data is missing. Less than half (44.1%) of the average faculty data is missing. For the percentage of undergraduate students who received federal loans, 72.4% of the data is missing. Further exploratory analysis will reveal patterns in the missing data — e.g., is it for particular schools or schools that are larger or smaller?
+Getting an understanding of the missing data and, more importantly, of the possible patterns in which the data are missing is important in deciding whether any analysis results might be generalizable to a broader population. We will take care to account for the fact that the earnings data come from students who receive federal aid and will be explicit about statistics related to that data.
+
+In terms of integrating data. We will merge on institution name, where appropriate. When doing other analyses, such as including city-specific data (if we decide to add this in), joins will be done on city name (or other geographic unit). It might be relevant for us to include economic statistics, such as GDP or interest rates, preferably at the state or county level.
+
+To prepare a data set that is ready for analytic modeling, we would need to do several things. First, we must decide what variables have enough data and are important enough in our analysis. It might be the case that we only select certain institutions based on this assessment. We will describe and defend the rationale if we need to subset data in this way. Next, we will need to transform data. While most of the variables are encoded in an appropriate type (e.g., `int` or `float`), we will want to transform categorical variables into dummy or binary representations. For example, if we have a variable, X, with three levels, {0, 1, 2}, we would create three (even though we might only use two, depending on the method(s) chosen) distinct variables X_0, X_1, and X_2. We will also consider additional feature extraction/engineering needs during this stage, such as normalizing variables. For text columns (even column names in some cases) we will need to strip our Unicode or UTF-8 characters. We noticed the first column being read in as '\ufeffUNITID'. In other cases, we will transform data. This is typically done for earnings or wage data. Based on what else we find from a full exploratory data analysis, which will be followed by confirmatory analyses, we may decide to standardize other values.
