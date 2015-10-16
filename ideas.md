@@ -80,7 +80,7 @@ for community colleges.
 * `HIGHDEG`
 * `CONTROL`
 * `ADM_RATE`
-* `SAT`...
+* `SAT*`
 * `PCIP`&mdash;but aggregate categories
 * `DISTANCEONLY`
 * `UGDS`
@@ -92,7 +92,7 @@ for community colleges.
 * `NUM4_PUB`
 * `NUM4_PRIV`
 * `NUM41_PUB` - `NUM45_PUB`
-* `NUM41_PRIV` - `NUM41_PRIV`
+* `NUM41_PRIV` - `NUM45_PRIV`
 * `COSTT4_A`&mdash;only available for 2009-2013
 * `COSTT4_P`&mdash;only available for 2009-2013
 * `TUITIONFEE_IN`&mdash;only available for 2000-2013
