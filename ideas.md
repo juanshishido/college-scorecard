@@ -26,21 +26,18 @@ for community colleges.
    amount that schools offer. This is on a yearly basis.
 
     * Can we predict average financial aid amounts?
-
-**Concerns**
-
-* Limited number of years of data
+    * **Concerns**
+        * Limited number of years of data
 
 2. What affects financial aid? Of course, there are state budgets, enrollments,
    federal funds, donations, grants, etc.
 
     * Can we identify factors that increase awarded aid?
-
-**Concerns**
-
-* There may be student differences both across schools and across times in
-  terms of propensity to accept. Are the numbers relfected the "awarded"
-  amounts or are they the accepted amounts? Control for attendance costs
+    * **Concerns**
+        * There may be student differences both across schools and across times
+          in terms of propensity to accept. Are the numbers relfected the
+          "awarded" amounts or are they the accepted amounts? Control for
+          attendance costs
 
 3. Can we see differences in graduation rates across time?
 
