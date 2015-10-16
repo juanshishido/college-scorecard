@@ -112,21 +112,20 @@ for community colleges.
 * `PCTFLOAN`&mdash;2009-2013
 * `UG25abv`&mdash;only available every other year starting in 1997
 * `CRD2`
-* `CRD3`&mdash;2009-2013
-* `COMP_ORIG_YR2_RT`
-* `COMP_ORIG_YR4_RT`&mdash;2000-2012
-* `WDRAW_ORIG_YR4_RT`&mdash;2000-2012
-* `ENRL_ORIG_YR4_RT`&mdash;2000-2012
-* `LO_INC_COMP_ORIG_YR4_RT`&mdash;2000-2012
-* `LO_INC_WDRAW_ORIG_YR4_RT`&mdash;2000-2012
-* `MD_INC_COMP_ORIG_YR4_RT`&mdash;2000-2012
-* `MD_INC_WDRAW_ORIG_YR4_RT`&mdash;2000-2012
-* `HI_INC_COMP_ORIG_YR4_RT`&mdash;2000-2012
-* `HI_INC_WDRAW_ORIG_YR4_RT`&mdash;2000-2012
-* `DEP_COMP_ORIG_YR4_RT`&mdash;2000-2012
-* `DEP_WDRAW_ORIG_YR4_RT`&mdash;2000-2012
-* `IND_COMP_ORIG_YR4_RT`&mdash;2000-2012
-* `IND_WDRAW_ORIG_YR4_RT`&mdash;2000-2012
+* `CRD3`&mdash;2011-2013
+* `COMP_ORIG_YR*_RT`&mdash;1997-2012
+* `COMP_*YR_TRANS_YR`&mdash;1997-2012
+* `WDRAW_ORIG_YR*_RT`&mdash;1997-2012
+* `WDRAW_*YR_TRANS_YR*_RT`&mdash;1997-2012
+* `ENRL_ORIG_YR*_RT`&mdash;1997-2012
+* `ENRL_*YR_TRANS_YR*`&mdash;1997-2012
+* `*_COMP_ORIG_YR*_RT`&mdash;1997-2012
+* `*_COMP_*YR_TRANS_YR*_RT`&mdash;1997-2012
+* `*_WDRAW_ORIG_YR*_RT`&mdash;1997-2012
+* `*_WDRAW_*YR_TRANS_YR*_RT`&mdash;1997-2012
+* `*_ENRL_ORIG_YR*_RT`&mdash;1997-2012
+* `*_ENRL_*YR_TRANS_YR*_RT`&mdash;1997-2012
+    * The three and four year variables start in 1999 and 2000, respectively
 * `COMPL_RPY_1YR_RT`&mdash;2000-2012
 * `NONCOM_RPY_1YR_RT`&mdash;2007-2011
 * `LO_INC_RPY_1YR_RT`&mdash;2007-2011
