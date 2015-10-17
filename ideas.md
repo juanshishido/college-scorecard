@@ -186,62 +186,25 @@ for community colleges.
 **Could potentially include those with Pell grants vs. those W/O. Would need to
 include in repayment data**
 
-• PCIP01
-• PCIP03
-• PCIP04
-• PCIP05
-• PCIP09
-• PCIP10
-• PCIP11
-• PCIP12
-• PCIP13
-• PCIP14
-• PCIP15
-• PCIP16
-• PCIP19
-• PCIP22
-• PCIP23
-• PCIP24
-• PCIP25
-• PCIP26
-• PCIP27
-• PCIP29
-• PCIP30
-• PCIP31
-• PCIP38
-• PCIP39
-• PCIP40
-• PCIP41
-• PCIP42
-• PCIP43
-• PCIP44
-• PCIP45
-• PCIP46
-• PCIP47
-• PCIP48
-• PCIP49
-• PCIP50
-• PCIP51
-• PCIP52
-• PCIP54
-• UG- 2013
-• PPTUG_EF2
-• avg_net_price.public- 2013
-• avg_net_price.private- 2013
-• COSTT4_A
-• COSTT4_P
-• TUITIONFEE_IN
-• TUITIONFEE_OUT
-• TUITIONFEE_PROG
-• TUITFTE
-• PCTPELL
-• C150_4
-• C150_L4
-• RET_FT4
-• PCTFLOAN
-• UG25abv
-• FEMALE_COMP_ORIG_YR4_RT
-• MALE_COMP_ORIG_YR4_RT
+* PCIP*
+* UG- 2013
+* PPTUG_EF2
+* avg_net_price.public- 2013
+* avg_net_price.private- 2013
+* COSTT4_A
+* COSTT4_P
+* TUITIONFEE_IN
+* TUITIONFEE_OUT
+* TUITIONFEE_PROG
+* TUITFTE
+* PCTPELL
+* C150_4
+* C150_L4
+* RET_FT4
+* PCTFLOAN
+* UG25abv
+* FEMALE_COMP_ORIG_YR4_RT
+* MALE_COMP_ORIG_YR4_RT
 
 
 
