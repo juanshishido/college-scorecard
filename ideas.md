@@ -267,3 +267,27 @@ for community colleges.
 
 **Could potentially include those with Pell grants vs. those W/O. Would need to
 include in repayment data**
+
+* PCIP*
+* UG- 2013
+* PPTUG_EF2
+* avg_net_price.public- 2013
+* avg_net_price.private- 2013
+* COSTT4_A
+* COSTT4_P
+* TUITIONFEE_IN
+* TUITIONFEE_OUT
+* TUITIONFEE_PROG
+* TUITFTE
+* PCTPELL
+* C150_4
+* C150_L4
+* RET_FT4
+* PCTFLOAN
+* UG25abv
+* FEMALE_COMP_ORIG_YR4_RT
+* MALE_COMP_ORIG_YR4_RT
+
+
+
+
